@@ -57,7 +57,7 @@ process downloader_ericsctipt{
     file "ericscript_db_homosapiens_ensembl84" into ch2
     """
     #!/bin/bash
-    gdown "https://drive.google.com/uc?export=download&confirm=qgOc&id=1VENACpUv_81HbIB8xZN0frasrAS7M4SP"
+    gdown "https://drive.google.com/uc?export=download&confirm=qgOc&id=1du9qL4zfmHYqkJn-ndZfplxOPP03N9oV"
     tar -xf ericscript_db_homosapiens_ensembl84.tar.bz2
     """
 
