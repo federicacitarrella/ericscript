@@ -55,6 +55,7 @@ process downloader_ericsctipt{
 
     output:
     file "ericscript_db_homosapiens_ensembl84" into ch2
+    
     """
     #!/bin/bash
     gdown "https://drive.google.com/uc?export=download&confirm=qgOc&id=1VENACpUv_81HbIB8xZN0frasrAS7M4SP"
