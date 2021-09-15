@@ -22,7 +22,7 @@ if (params.help) {
     exit 0
 }
 
-params.db = "$baseDir/results/ericscript_db_homosapiens_ensembl84"
+params.db = "${params.output}/ericscript_db_homosapiens_ensembl84"
 
 dbFile = file(params.db)
 
