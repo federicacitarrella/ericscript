@@ -76,6 +76,7 @@ process ericscript{
     """
     #!/bin/bash
     cp -r $ericscript_db/data/homo_sapiens /opt/conda/envs/EricScript/share/ericscript-0.5.5-5/lib/data/
+    export PATH="/opt/conda/envs/EricScript/bin:$PATH"
     ericscript.pl -o ./EricScript_output ${reads}
     """
 

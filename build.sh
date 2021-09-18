@@ -1,2 +1,2 @@
-sudo docker build -t 'federicacitarrella/ericscriptimage' .
-sudo docker push federicacitarrella/ericscriptimage:latest
+sudo docker build -t 'federicacitarrella/ericscript:latest' .
+sudo docker push federicacitarrella/ericscript:latest
